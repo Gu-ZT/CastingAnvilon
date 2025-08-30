@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "anvilcraft_casting_anvilon:item/casting_anvilon_device"
+  }
+}

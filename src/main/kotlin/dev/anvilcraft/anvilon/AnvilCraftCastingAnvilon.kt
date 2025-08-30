@@ -19,9 +19,7 @@ class AnvilCraftCastingAnvilon(modEventBus: IEventBus, modContainer: ModContaine
     companion object {
         const val MOD_ID: String = "anvilcraft_casting_anvilon"
         val LOGGER: Logger = LogUtils.getLogger()
-        val CONFIG: AnvilCraftCastingAnvilonConfig = ConfigManager.register(MOD_ID) {
-            return@register AnvilCraftCastingAnvilonConfig()
-        }
+        val CONFIG: AnvilCraftCastingAnvilonConfig = ConfigManager.register(MOD_ID, ::AnvilCraftCastingAnvilonConfig)
         val REGISTRATE: Registrate = Registrate.create(MOD_ID)
 
         @NotNull

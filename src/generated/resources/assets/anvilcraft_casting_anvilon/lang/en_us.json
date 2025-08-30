@@ -1,6 +1,4 @@
 {
-  "anvilcraft_casting_anvilon.configuration.items": "Items",
-  "anvilcraft_casting_anvilon.configuration.items.tooltip": "A list of items to log on common setup.",
   "anvilcraft_casting_anvilon.configuration.log_dirt_block": "Log Dirt Block",
   "anvilcraft_casting_anvilon.configuration.log_dirt_block.tooltip": "Whether to log the dirt block on common setup",
   "anvilcraft_casting_anvilon.configuration.magic_number": "Magic Number",
@@ -11,6 +9,6 @@
   "anvilcraft_casting_anvilon.configuration.section.anvilcraft_casting_anvilon.common.toml.title": "Anvilcraft Casting Anvilon Common Configuration",
   "anvilcraft_casting_anvilon.configuration.title": "Anvilcraft Casting Anvilon Configuration",
   "block.anvilcraft_casting_anvilon.example_block": "Example Block",
-  "item.anvilcraft_casting_anvilon.example_item": "Example Item",
+  "item.anvilcraft_casting_anvilon.casting_anvilon_device": "Casting Anvilon Device",
   "itemGroup.anvilcraft_casting_anvilon.addon_items": "AnvilCraft: Casting Anvilon"
 }

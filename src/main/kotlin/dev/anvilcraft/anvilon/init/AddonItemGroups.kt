@@ -21,7 +21,7 @@ class AddonItemGroups {
                 "addon_items",
                 Supplier {
                     CreativeModeTab.builder()
-                        .icon { AddonItems.EXAMPLE_ITEM.asStack() }
+                        .icon { AddonItems.CASTING_ANVILON_DEVICE.asStack() }
                         .displayItems { _, _ -> }
                         .title(
                             AnvilCraftCastingAnvilon.REGISTRATE.addLang(
