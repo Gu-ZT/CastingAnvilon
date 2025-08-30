@@ -27,7 +27,7 @@ class AddonItemGroups {
                             AnvilCraftCastingAnvilon.REGISTRATE.addLang(
                                 "itemGroup",
                                 AnvilCraftCastingAnvilon.of("addon_items"),
-                                "AnvilCraft: Addon Template"
+                                "AnvilCraft: Casting Anvilon"
                             )
                         )
                         .withTabsBefore(ModItemGroups.ANVILCRAFT_BUILD_BLOCK.id)

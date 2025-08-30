@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.anvilcraft.anvilon.template.mixin",
+  "package": "dev.anvilcraft.anvilon.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
