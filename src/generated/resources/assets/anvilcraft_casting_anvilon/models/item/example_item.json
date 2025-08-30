@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "anvilcraft_addon_template:item/example_item"
+    "layer0": "anvilcraft_casting_anvilon:item/example_item"
   }
 }

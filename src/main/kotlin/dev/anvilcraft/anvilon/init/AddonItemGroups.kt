@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.template.init
+package dev.anvilcraft.anvilon.init
 
-import dev.anvilcraft.addon.template.AnvilCraftAddonTemplate
+import dev.anvilcraft.anvilon.AnvilCraftCastingAnvilon
 import dev.dubhe.anvilcraft.init.item.ModItemGroups
 import net.minecraft.core.registries.Registries
 import net.minecraft.world.item.CreativeModeTab
@@ -13,7 +13,7 @@ class AddonItemGroups {
     companion object {
         val DEFERRED_REGISTER: DeferredRegister<CreativeModeTab?> = DeferredRegister.create<CreativeModeTab>(
             Registries.CREATIVE_MODE_TAB,
-            AnvilCraftAddonTemplate.MOD_ID
+            AnvilCraftCastingAnvilon.MOD_ID
         )
 
         val ADDON_ITEMS: DeferredHolder<CreativeModeTab?, CreativeModeTab?> =
@@ -24,9 +24,9 @@ class AddonItemGroups {
                         .icon { AddonItems.EXAMPLE_ITEM.asStack() }
                         .displayItems { _, _ -> }
                         .title(
-                            AnvilCraftAddonTemplate.REGISTRATE.addLang(
+                            AnvilCraftCastingAnvilon.REGISTRATE.addLang(
                                 "itemGroup",
-                                AnvilCraftAddonTemplate.of("addon_items"),
+                                AnvilCraftCastingAnvilon.of("addon_items"),
                                 "AnvilCraft: Addon Template"
                             )
                         )

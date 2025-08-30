@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "anvilcraft_addon_template:example_block"
+          "name": "anvilcraft_casting_anvilon:example_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "anvilcraft_addon_template:blocks/example_block"
+  "random_sequence": "anvilcraft_casting_anvilon:blocks/example_block"
 }

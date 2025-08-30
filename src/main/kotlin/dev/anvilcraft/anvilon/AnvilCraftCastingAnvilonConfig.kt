@@ -1,12 +1,12 @@
-package dev.anvilcraft.addon.template
+package dev.anvilcraft.anvilon
 
 import dev.anvilcraft.lib.config.BoundedDiscrete
 import dev.anvilcraft.lib.config.Comment
 import dev.anvilcraft.lib.config.Config
 import net.minecraft.world.item.Item
 
-@Config(name = AnvilCraftAddonTemplate.MOD_ID)
-class AddonConfig {
+@Config(name = AnvilCraftCastingAnvilon.MOD_ID)
+class AnvilCraftCastingAnvilonConfig {
     @Comment("Whether to log the dirt block on common setup")
     var logDirtBlock: Boolean = false
 

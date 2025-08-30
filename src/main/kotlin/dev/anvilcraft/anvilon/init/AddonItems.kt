@@ -1,7 +1,7 @@
-package dev.anvilcraft.addon.template.init
+package dev.anvilcraft.anvilon.init
 
 import com.tterrag.registrate.util.entry.ItemEntry
-import dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.Companion.REGISTRATE
+import dev.anvilcraft.anvilon.AnvilCraftCastingAnvilon.Companion.REGISTRATE
 import net.minecraft.world.item.Item
 
 class AddonItems {
