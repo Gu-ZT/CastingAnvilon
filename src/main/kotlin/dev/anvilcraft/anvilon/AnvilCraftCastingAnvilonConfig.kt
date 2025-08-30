@@ -16,7 +16,4 @@ class AnvilCraftCastingAnvilonConfig {
 
     @Comment("What you want the introduction message to be for the magic number")
     var magicNumberIntroduction: String = ""
-
-    @Comment("A list of items to log on common setup.")
-    var items: MutableSet<Item> = mutableSetOf()
 }
